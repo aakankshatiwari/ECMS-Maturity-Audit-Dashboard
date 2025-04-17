@@ -15,7 +15,7 @@ from fpdf import FPDF
 import os
 
 # Load the synthetic ECMS dataset
-df = pd.read_csv("/content/ecms_maturity_audit_data.csv")
+df = pd.read_csv("ecms_maturity_audit_data.csv")
 
 st.set_page_config(page_title="ECMS Maturity Audit Dashboard", layout="wide")
 st.title("🌱 Environmental Compliance Maturity Audit Dashboard")
